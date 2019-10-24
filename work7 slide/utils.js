@@ -30,8 +30,8 @@ function showLog(logValues,showElemt){
     if (pos[0]!= -1)
        setTimeout("showLog(logValues,shoeDiv)",500)
 
-    }
-    function inserSort(str){
+}
+    function insertSort(str){
        let arr = str.split(',')
        let sortLog = []
        for (let i=0;i<arr.length-1;i++){
