@@ -5,7 +5,7 @@ function isgobh(num) {
             sum++;
         }
     }
-    if (sum == 2) {
+    if (sum == 2) {//表示大于2一个的偶数
         return true;
     } else {
         return false;
