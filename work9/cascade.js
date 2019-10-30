@@ -85,7 +85,7 @@ createOption(collegeSelect,collegeSelectArr);
 let majorSelect = document.getElementById('majorSelect');
 collegeSelect.onchange = function(){
     majorSelect.option.length=0;
-    createOption(majorSelect,majorSelect[collegeSelect.value]);
+    createOption(majorSelect,majorSelectArr[collegeSelect.value]);
 }
 let classSelect = document.getElementById('classSelect');
 majorSelect.onchange = function(){
