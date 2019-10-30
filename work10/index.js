@@ -21,7 +21,7 @@ function monkey(){
         }
     }
     document.getElementById('monkeying').innerText = monkey[0]
-<<<<<<< HEAD
+
 }
 function stat(){
     let str = document.getElementById('str').value
@@ -29,6 +29,5 @@ function stat(){
     let arr=str.split('').sort()
     obj = arr.reduce((res,c)=>{res[c]?res[c]++:res[c]=1;return res},{})
     document.getElementById('result').innerText = JSON.stringify(obj)
-=======
->>>>>>> f2c9212468f986efcb58f9fe9d7ff5628c828b62
+
 }
