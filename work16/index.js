@@ -18,8 +18,7 @@ $('smallBox').onmousemove = function (event) {
     var boxY = pageY - $('box').offsetTop;
     var maskX = boxX - $('mask').offsetWidth / 2;
     var maskY = boxY - $('mask').offsetHeight / 2;
-    //mask.style.left = maskX + 'px';
-    //mask.style.top = maskY + 'px';
+    
     if (maskX < 0) {
         maskX = 0 ;
     }
